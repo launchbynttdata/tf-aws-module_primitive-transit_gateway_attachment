@@ -57,7 +57,7 @@ resource "aws_subnet" "this" {
 }
 
 module "transit_gateway" {
-  source = "git::https://github.com/launchbynttdata/tf-aws-module_primitive-transit_gateway.git?ref=0.1.0"
+  source = "git::https://github.com/launchbynttdata/tf-aws-module_primitive-transit_gateway.git?ref=1.0.0"
 
   description = "Complete example transit gateway for VPC attachment."
   tags        = var.tags
