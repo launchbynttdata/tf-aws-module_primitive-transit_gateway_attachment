@@ -90,7 +90,7 @@ module "transit_gateway_attachment" {
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | terraform.registry.launch.nttdata.com/module_library/resource_name/launch | ~> 2.0 |
-| <a name="module_transit_gateway"></a> [transit\_gateway](#module\_transit\_gateway) | git::https://github.com/launchbynttdata/tf-aws-module_primitive-transit_gateway.git | 1.0.0 |
+| <a name="module_transit_gateway"></a> [transit\_gateway](#module\_transit\_gateway) | git::https://github.com/launchbynttdata/tf-aws-module_primitive-transit_gateway.git | 0.1.0 |
 | <a name="module_transit_gateway_attachment"></a> [transit\_gateway\_attachment](#module\_transit\_gateway\_attachment) | ../.. | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | terraform.registry.launch.nttdata.com/module_primitive/vpc/aws | ~> 1.0 |
 
