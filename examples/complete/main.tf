@@ -57,7 +57,8 @@ resource "aws_subnet" "this" {
 }
 
 module "transit_gateway" {
-  source = "git::https://github.com/launchbynttdata/tf-aws-module_primitive-transit_gateway.git?ref=1.0.0"
+  source  = "terraform.registry.launch.nttdata.com/module_primitive/transit_gateway/aws"
+  version = "~> 2.0"
 
   description = "Complete example transit gateway for VPC attachment."
   tags        = var.tags
