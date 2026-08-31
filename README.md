@@ -9,7 +9,9 @@ This Terraform module creates an [AWS EC2 Transit Gateway VPC Attachment](https:
 
 ## Usage
 
-See the [complete example](examples/complete/) for a full working configuration.
+See the [complete example](examples/complete/) for a full working configuration. The example is
+self-contained: it provisions its own VPC, subnet, and transit gateway, then attaches the VPC to
+that transit gateway using this module.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
